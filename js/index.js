@@ -158,9 +158,14 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 
 // ------------------Existencia de producto 'some'----------
 
-// const productos = [{ id: 1,  producto: "Hamburguesa", precio: 800 },
-//                   {  id: 2,  producto: "Papas", precio: 500 },
-//                   {  id: 3,  producto: "Sanguche de milanesa"  , precio: 700}]
+const productos = [{ id: 1,  producto: "Hamburguesa", precio: 800 },
+                  {  id: 2,  producto: "Papas", precio: 500 },
+                  {  id: 3,  producto: "Sanguche de milanesa"  , precio: 700},
+                  {  id: 3,  producto: "Cerveza"  , precio: 600},
+                  {  id: 3,  producto: "Gaseosa linea pepsi"  , precio: 250},
+                  {  id: 3,  producto: "Agua"  , precio: 350},
+                  
+                ]
 
 
 
@@ -171,5 +176,5 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 // ----------Filter---------------
 
 // let unPrecio = parseInt(prompt('Ingrese cuanto dinero tiene'))
-// const baratos = productos.filter(producto => producto.precio < unPrecio)
+// const baratos = productos.filter(producto => producto.precio <= unPrecio)
 // console.log(baratos)
