@@ -87,49 +87,8 @@
 // console.log(totalCuenta(2, 6));
 
 
-// for (let i = 1; i <= 10; i++) {
-//     if(i == 5 || i == 7 || i == 10){
-//         alert('El turno numero ' + i + ' ya esta reservado :(')
-//         continue;  
-//     }
-//     let ingresarNombre = prompt("Ingresar nombre");
-    
-//     alert(" Turno  N° "+ i +" nombre: "+ingresarNombre);
-// }
-
-
-
-
-
-
-
-//-----------------Ejercicio Arrays-------------------------------
-
-
-
 let menuBebidas = ['Gaseosa linea pepsi', 'Agua Mineral', 'Cerveza'];
 let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguche de Milanesa'];
-
-//------ver menu de comidas-----------
-
-// let menuEntero = menuBebidas.concat(menuComidas);
-
-// for (let i = 0; i < menuEntero.length; i++) {
-//     alert(menuEntero[i]);
-// }
-
-// alert('Te dejamos la carta:\n' + menuEntero.join('\n'));
-
-
-
-
-
-
-
-
-//--------ver menu de comidas aplicado en una función----------
-
-
 
 // function prueba (unArray) {
 //     for (let i = 0; i < unArray.length; i++) {
@@ -140,16 +99,7 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 // prueba (menuComidas);
 // prueba (menuBebidas);
 
-
-
-
-
-
-
-
-
-
-//----------Toma de pedidos----------
+//----------Toma de pedidos por cliente----------
 
 // let pedido = [];
 // let input = prompt('Ingrese su opción de comida');
@@ -165,17 +115,7 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 // tomaPedido ();
 // alert('Tu pedido es ' + pedido[0] + ' con ' + pedido[1]);
 
-
-
-
-
-
-
-
-
 //---------toma de pedido usando clases-------- 
-
-
 
 
 // class Menu1 {
@@ -198,7 +138,7 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 
 
 
-//Toma de pedidos por mesa
+//-------Toma de pedidos por mesa-------------
 
 // class CartaMenu {
 //     constructor (comida, bebida) {
@@ -215,7 +155,8 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 
 // console.log(Mesa1)
 
-// ------------------Preentrega----------
+
+// ------------------Existencia de producto 'some'----------
 
 // const productos = [{ id: 1,  producto: "Hamburguesa", precio: 800 },
 //                   {  id: 2,  producto: "Papas", precio: 500 },
@@ -226,6 +167,8 @@ let menuComidas = ['Hamburguesa con papas', 'Porción de papas fritas', 'Sanguch
 // let siExiste = prompt('Ingrese el producto que desea saber si hay. INGRESE LA PRIMERA LETRA CON MAYUSCULA')
 // const existe = productos.some(producto => producto.producto === siExiste);
 // console.log(existe);
+
+// ----------Filter---------------
 
 // let unPrecio = parseInt(prompt('Ingrese cuanto dinero tiene'))
 // const baratos = productos.filter(producto => producto.precio < unPrecio)
